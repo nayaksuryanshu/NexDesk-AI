@@ -18,6 +18,39 @@ Dashboard
 
 Your central hub for all activities. Access your orders, preferences, and support tickets from one place.
 
+Billing and Payments
+
+The billing experience is designed to be simple and secure.
+
+- Accepts major credit and debit cards
+- Supports PayPal and Apple Pay
+- Can issue receipts after payment
+- Can generate invoices for enterprise customers
+- Verifies payment details automatically during checkout
+
+Payment Flow
+
+1. Select a product, plan, or service
+2. Choose a supported payment method
+3. Complete the checkout and verification step
+4. Receive confirmation by email after success
+
+Billing Troubleshooting
+
+If a payment fails:
+
+- Double-check the card number, expiry date, and CVV
+- Confirm the billing address matches the card holder details
+- Make sure funds are available
+- Try a different payment method
+- Contact your bank if the card is being blocked
+
+If a charge looks incorrect:
+
+- Compare the transaction date and amount with your order history
+- Ask support to verify duplicate or pending charges
+- Request a refund review if needed
+
 Order Management
 
 - View order history
@@ -82,6 +115,20 @@ Payment declined?
 - Check if card has sufficient funds
 - Contact your bank
 - Try a different payment method
+
+Need help with billing?
+
+- Ask about supported payment methods
+- Request invoice or receipt help
+- Ask how payment verification works
+- Ask what happens when a charge fails or is duplicated
+
+How to ask the assistant
+
+- Ask short questions about billing, shipping, login, refunds, orders, or account setup
+- Include an order number or ticket number when relevant
+- If the issue is urgent, ask for a human handoff
+- If the answer is not exact, the assistant should still give the closest helpful guidance
 
 Support Hours
 

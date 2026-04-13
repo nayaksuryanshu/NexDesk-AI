@@ -3,6 +3,9 @@ RETURN POLICY Customers may return products within 30 days of purchase for a ful
 EXCHANGE POLICY We offer free exchanges for defective products or wrong items shipped. Exchanges must be requested within 30 days of purchase. We cover shipping costs for exchanges due to our error.
 WARRANTY INFORMATION All products include a standard 1-year warranty. Warranty covers manufacturing defects and malfunctions under normal use. Warranty does not cover damage from misuse, accidents, or unauthorized repairs.
 PRIVACY POLICY We protect customer data and never sell personal information to third parties. All payment information is encrypted. Customers can request data deletion at any time.
+PAYMENT POLICY We accept major credit and debit cards, PayPal, and Apple Pay. Enterprise customers may be offered invoice billing when enabled on their account. Payment verification happens at checkout and may fail if billing details, available funds, or fraud checks do not pass.
+FAILED PAYMENT HANDLING If a payment fails, customers should verify the card details, billing address, and funds available, then retry with another method if needed. Support can help check transaction status, duplicate charges, and invoice requests.
+REFUND PROCESS Refunds follow the 30-day money-back guarantee and are issued back to the original payment method after approval. Refund reviews should include the order number and payment reference when possible.
 RESPONSE TIME COMMITMENTS
 - Email support: Response within 24 hours
 - Live chat: Average wait time under 5 minutes
