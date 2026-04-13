@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --bg: #07111f;
+  --bg-elevated: #0d1728;
+  --bg-soft: #0b1526;
+  --text: #cbd5e1;
+  --text-strong: #f8fafc;
+  --text-muted: #94a3b8;
+  --border: rgba(148, 163, 184, 0.14);
+  --accent: #4f8cff;
+  --accent-2: #7c5cff;
+  --shadow: 0 24px 70px rgba(2, 6, 23, 0.38);
+  --font-sans: 'Inter', 'Segoe UI', sans-serif;
+  --font-heading: 'Space Grotesk', 'Inter', sans-serif;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top, rgba(79, 140, 255, 0.1), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(124, 92, 255, 0.08), transparent 26%),
+    linear-gradient(180deg, #050a14 0%, #081220 48%, #091425 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+.dashboard-title,
+.brand,
+.brand-small {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background: rgba(79, 140, 255, 0.28);
+  color: #f8fafc;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
