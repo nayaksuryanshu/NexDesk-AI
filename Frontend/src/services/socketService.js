@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client'
-import { getApiBaseUrl } from '../config/api.js'
+import { getApiUrl } from '../config/api.js'
 
 class SocketService {
   constructor() {
@@ -8,13 +8,7 @@ class SocketService {
   }
 
   getSocketUrl() {
-    const configured = import.meta.env.VITE_SOCKET_URL
-    if (configured && configured.trim()) {
-      return configured.replace(/\/$/, '')
-    }
-
-    const apiBase = getApiBaseUrl()
-    return apiBase.endsWith('/api') ? apiBase.slice(0, -4) : apiBase
+    return getApiUrl()
   }
 
   connect({ ticketId, userRole, onMessage, onTyping, onAIError, onError, preserveListeners = false } = {}) {
