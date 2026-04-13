@@ -57,6 +57,7 @@ export default function LoginPage() {
     setIsSubmitting(true)
 
     try {
+      console.log("VITE_API_BASE_URL is:", import.meta.env.VITE_API_BASE_URL)
       await login(formData)
       navigate(redirectTo, { replace: true })
     } catch (err) {

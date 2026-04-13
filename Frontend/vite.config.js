@@ -3,17 +3,20 @@ import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
+    babel({ presets: [reactCompilerPreset()] }),
   ],
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-        changeOrigin: true
-      }
-    }
-  }
-})
+  server:
+    mode === 'development'
+      ? {
+          proxy: {
+            '/api': {
+              target: 'http://localhost:5000',
+              changeOrigin: true,
+            },
+          },
+        }
+      : undefined,
+}))
